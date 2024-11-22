@@ -1,0 +1,76 @@
+<!--Designer: Sandra Keng | IS117-003 | Fall Semester, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Central</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Cameroonian Cuisine</a>
+                <!-- Responsive Button for smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto to align menu to the right -->
+                        <!-- Home link -->
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        
+                        <!-- Dropdown menu for Dishes by Region -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                                Dishes by Region
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="northwest.html">Northwest</a>
+                                <a class="dropdown-item" href="southwest.html">Southwest</a>
+                                <a class="dropdown-item" href="littoral.html">Littoral</a>
+                                <a class="dropdown-item" href="central.html">Central</a>
+                            </div>
+                        </li>
+                        
+                        <!-- Other menu items -->
+                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cultural-significance.html">Cultural Significance</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <!-- Main Content -->
+        <div class="mt-4">
+            <h1>Central Region</h1>
+            <p>
+                The Central region of Cameroon is renowned for its rich and diverse culinary heritage, with dishes that reflect both the abundance of the land and the cultural influences that have shaped the area. One of the standout dishes from this region is Okok, a savory and satisfying dish made from wild spinach, cocoyams, and sometimes fish or meat, all simmered together with a variety of spices and seasonings. The preparation of Okok is a labor of love, requiring careful cooking to ensure the wild spinach retains its unique flavor while blending harmoniously with the other ingredients. This dish is often enjoyed with starchy sides like plantains or cassava, making it a complete and hearty meal. Okok is commonly served during family gatherings, celebrations, and special occasions, symbolizing unity, tradition, and the deep connection between food and community. It embodies the Central region's ability to transform humble, locally sourced ingredients into a flavorful and culturally significant dish, showcasing the area's agricultural richness and its people’s ability to turn every meal into an expression of cultural pride..
+            </p>
+            <figure>
+                <a class="navbar-brand" href="index.html">
+                    <img src="Okok.jpg" alt="Okok"
+                         width="200px" height="100px" />
+                </a>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        &copy; 2024 Sandra Keng | Terms of Use | Privacy Statement
+    </footer>
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

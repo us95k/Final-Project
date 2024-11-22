@@ -1,0 +1,202 @@
+<!--Designer: Sandra Keng | IS117-003 | Fall Semester, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Cameroonian Cuisine</a>
+                <!-- Responsive Button for smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto to align menu to the right -->
+                        <!-- Home link -->
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        
+                        <!-- Dropdown menu for Dishes by Region -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                                Dishes by Region
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#northwest">Northwest</a>
+                                <a class="dropdown-item" href="#southwest">Southwest</a>
+                                <a class="dropdown-item" href="#littoral">Littoral</a>
+                                <a class="dropdown-item" href="#central">Central</a>
+                            </div>
+                        </li>
+                        
+                        <!-- Other menu items -->
+                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cultural-significance.html">Cultural Significance</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+    <header class="text-center bg-success text-white py-5">
+        <h1>Recipes</h1>
+        <p>Learn to cook traditional Cameroonian dishes step-by-step.</p>
+    </header>
+
+    <main class="container my-5">
+        <section>
+            <h2>Featured Recipes</h2>
+            <!-- Recipe: Ndolé -->
+            <section class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="Ndole.jpg" class="img-fluid rounded" alt="Ndolé">
+                </div>
+                <div class="col-md-6">
+                            <h5 class="card-title">Ndolé</h5>
+                            <p><strong>Description:</strong> A delicious spicy stew made with bitterleaf and groundnuts (peanuts).</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>500g Bitterleaf (washed thoroughly)</li>
+                    <li>200g Groundnuts (roasted and blended)</li>
+                    <li>1kg Beef or Fish (your choice of protein)</li>
+                    <li>1/4 Cup Palm Oil</li>
+                    <li>1 Onion (chopped)</li>
+                    <li>3 Cloves Garlic (minced)</li>
+                    <li>2 Cups Crayfish (ground)</li>
+                    <li>Seasoning cubes and Salt to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Boil the bitterleaf for about 15 minutes to reduce bitterness. Drain and set aside.</li>
+                    <li>Cook the beef or fish with onions, garlic, seasoning cubes, and salt until tender.</li>
+                    <li>Add the blended groundnuts and crayfish to the pot, stirring to create a thick sauce.</li>
+                    <li>Mix in the bitterleaf and simmer for another 10 minutes.</li>
+                    <li>Add palm oil and adjust seasoning as needed.</li>
+                    <li>Serve with plantains, rice, or fufu.</li>
+                </ol>
+            </section>
+                <!-- Recipe: Fufu and Eru -->
+            <section class="row align-items-center mb-5 flex-row-reverse">
+                <div class="col-md-6">
+                    <img src="Fufu and Eru.jpg" class="img-fluid rounded" alt="Fufu and Eru">
+                </div>
+                <div class="col-md-6">
+                                    <h5 class="card-title">Fufu and Eru</h5>
+                                    <p><strong>Description:</strong> A popular dish featuring fermented cassava (fufu) and Eru (a leafy vegetable).</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 Cups Eru (finely chopped)</li>
+                    <li>1kg Waterleaf (or spinach, finely chopped)</li>
+                    <li>500g Smoked Fish</li>
+                    <li>1/4 Cup Palm Oil</li>
+                    <li>Seasoning cubes and Salt to taste</li>
+                    <li>Fermented cassava fufu</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Cook the waterleaf until soft, then add Eru and stir well.</li>
+                    <li>Mix in the smoked fish and palm oil, then simmer for 10 minutes.</li>
+                    <li>Add seasoning cubes and salt to taste.</li>
+                    <li>Prepare the fufu by boiling it and stirring until smooth.</li>
+                    <li>Serve the Eru with fufu.</li>
+                </ol>
+            </section>
+            <!-- Achu Soup -->
+            <section class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="achu-soup-recipe.jpg" class="img-fluid rounded" alt="Achu Soup">
+                </div>
+                <div class="col-md-6">
+                        <h5 class="card-title">achu-soup-recipe</h5>
+                        <p><strong>Description:</strong> A yellow soup made with spices and served with pounded cocoyams.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1kg Cocoyams (boiled and pounded)</li>
+                    <li>1 Cup Palm Oil</li>
+                    <li>1/2 Cup Limestone Water</li>
+                    <li>2 Cups Beef or Fish Stock</li>
+                    <li>Spices (including yellow achu spices)</li>
+                    <li>Salt to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Mix the palm oil with limestone water until creamy.</li>
+                    <li>Heat the mixture, then add spices and stock.</li>
+                    <li>Simmer for 15 minutes, stirring occasionally.</li>
+                    <li>Serve the soup with pounded cocoyams.</li>
+                </ol>
+            </section>
+            <!-- Ekwang -->
+            <section class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="Ekwang.jpg" class="img-fluid rounded" alt="Ekwang">
+                </div>
+                <div class="col-md-6">
+                        <h5 class="card-title">Ekwang</h5>
+                        <p><strong>Description:</strong> Grated cocoyams wrapped in leaves and cooked in palm oil and spices.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1kg Cocoyams (peeled and grated)</li>
+                    <li>Fresh leaves (e.g., cocoyam leaves or spinach)</li>
+                    <li>1 Cup Palm Oil</li>
+                    <li>2 Cups Crayfish (ground)</li>
+                    <li>Seasoning cubes and Salt to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Wrap grated cocoyam in small portions using fresh leaves.</li>
+                    <li>Place the wraps in a pot and cover with water.</li>
+                    <li>Add palm oil, crayfish, and seasoning, then cook for 1 hour.</li>
+                    <li>Adjust seasoning as needed and serve hot.</li>
+                </ol>
+            </section>
+             <!-- Okok -->
+            <section class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="Okok.jpg" class="img-fluid rounded" alt="Okok">
+                </div>
+                <div class="col-md-6">
+                        <h5 class="card-title">Okok</h5>
+                        <p><strong>Description:</strong> A traditional dish made with wild spinach and cassava paste.</p>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 Cups Wild Spinach (finely chopped)</li>
+                    <li>500g Cassava (peeled and grated)</li>
+                    <li>1/4 Cup Palm Oil</li>
+                    <li>2 Cups Crayfish (ground)</li>
+                    <li>Seasoning cubes and Salt to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Boil cassava until soft and pound into a smooth paste.</li>
+                    <li>Cook the spinach with palm oil, crayfish, and seasoning for 15 minutes.</li>
+                    <li>Serve the spinach mixture with cassava paste.</li>
+                </ol>
+            </section>
+        </main>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; Sandra Keng, 2024 | Terms Of Use | Privacy Statement</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
